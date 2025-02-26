@@ -43,10 +43,19 @@
             font-weight: 700;
         }
 
-        .left-section p {
+        /* 직업 텍스트를 두 줄로 만들기 */
+        .left-section .profession {
             font-size: 1.5rem;
             margin: 10px 0 20px;
             font-weight: 300;
+            line-height: 1.5;
+            white-space: pre-line; /* 줄 바꿈을 허용 */
+        }
+
+        /* 마우스를 올렸을 때 색상 변경 */
+        .left-section .profession:hover {
+            color: #ff6b6b; /* 원하는 색상으로 변경 */
+            transition: color 0.3s;
         }
 
         /* 소셜 아이콘 스타일 */
@@ -99,7 +108,7 @@
         <!-- 왼쪽 섹션 -->
         <div class="left-section">
             <h1>Yunsun Joo</h1>
-            <p>UI/UX Design, Illustration</p>
+            <p class="profession">UI/UX Design,<br>Illustration</p>
 
             <!-- 소셜 아이콘 -->
             <div class="social-icons">
@@ -123,4 +132,3 @@
     </div>
 </body>
 </html>
-
