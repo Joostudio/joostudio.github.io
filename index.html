@@ -43,19 +43,24 @@
             font-weight: 700;
         }
 
-        /* 직업 텍스트를 두 줄로 만들기 */
-        .left-section .profession {
+        /* 직업 텍스트를 각각 다른 단락으로 설정 */
+        .profession-links {
+            margin: 20px 0;
+        }
+
+        .profession-links a {
+            display: block; /* 각각 독립된 줄로 표시 */
             font-size: 1.5rem;
-            margin: 10px 0 20px;
+            margin: 5px 0;
             font-weight: 300;
-            line-height: 1.5;
-            white-space: pre-line;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
         }
 
         /* 마우스를 올렸을 때 색상 변경 */
-        .left-section .profession:hover {
+        .profession-links a:hover {
             color: #ff6b6b;
-            transition: color 0.3s;
         }
 
         /* 소셜 아이콘 스타일 */
@@ -108,7 +113,12 @@
         <!-- 왼쪽 섹션 -->
         <div class="left-section">
             <h1>Yunsun Joo</h1>
-            <p class="profession">UI/UX Design,<br>Illustration</p>
+
+            <!-- 각각 다른 링크를 설정할 수 있도록 분리 -->
+            <div class="profession-links">
+                <a href="#" title="UI/UX Design">UI/UX Design</a>
+                <a href="#" title="Illustration">Illustration</a>
+            </div>
 
             <!-- 소셜 아이콘 -->
             <div class="social-icons">
