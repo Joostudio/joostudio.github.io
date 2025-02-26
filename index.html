@@ -17,14 +17,15 @@
             padding: 0;
             background-color: #fefefe;
             color: #333;
+            box-sizing: border-box;
         }
 
         /* 페이지 레이아웃 설정 */
         .container {
             display: flex;
+            flex-direction: row;
             height: 100vh;
             padding: 50px;
-            box-sizing: border-box;
         }
 
         /* 왼쪽 섹션 스타일 */
@@ -104,6 +105,36 @@
             color: #555;
             font-size: 1.2rem;
             font-weight: 500;
+        }
+
+        /* 모바일 화면 반응형 설정 */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* 세로 방향으로 변경 */
+                height: auto; /* 높이 자동 조정 */
+                padding: 20px;
+            }
+
+            .left-section, .right-section {
+                padding: 20px;
+            }
+
+            .left-section {
+                order: 1; /* 왼쪽 섹션을 첫 번째로 표시 */
+            }
+
+            .right-section {
+                order: 2; /* 오른쪽 섹션을 두 번째로 표시 */
+                gap: 10px;
+            }
+
+            h1 {
+                font-size: 2.5rem; /* 모바일에서 폰트 크기 조정 */
+            }
+
+            .profession-links a {
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
