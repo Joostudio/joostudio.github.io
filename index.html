@@ -18,19 +18,91 @@
             background-color: #fefefe;
             color: #333;
             box-sizing: border-box;
+            padding-top: 60px; /* 상단 바 공간 확보 */
         }
 
-        /* 페이지 레이아웃 설정 */
-        .container {
+        /* 상단 바 스타일 */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333; /* 검은색 배경 */
+            color: white;
+            padding: 10px 20px;
             display: flex;
-            flex-direction: row;
-            height: 100vh;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 로고 스타일 */
+        .navbar-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        /* 데스크톱 메뉴 스타일 */
+        .navbar-menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar-menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar-menu a:hover {
+            color: #ff6b6b;
+        }
+
+        /* 모바일 메뉴 (햄버거 버튼) */
+        .hamburger-menu {
+            display: none;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        /* 모바일 메뉴 슬라이드 */
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 60px;
+            right: 0;
+            width: 200px;
+            background-color: #333;
+            box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            padding: 20px;
+        }
+
+        .mobile-menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+
+        .mobile-menu a:hover {
+            color: #ff6b6b;
+        }
+
+        /* 페이지 레이아웃 (CSS Grid 사용) */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: calc(100vh - 60px);
             padding: 50px;
+            gap: 20px;
         }
 
         /* 왼쪽 섹션 스타일 */
         .left-section {
-            flex: 1;
             padding: 50px;
             background-color: #ffcccb;
             display: flex;
@@ -38,52 +110,8 @@
             justify-content: center;
         }
 
-        .left-section h1 {
-            font-size: 3rem;
-            margin: 0;
-            font-weight: 700;
-        }
-
-        /* 직업 텍스트를 각각 다른 단락으로 설정 */
-        .profession-links {
-            margin: 20px 0;
-        }
-
-        .profession-links a {
-            display: block; /* 각각 독립된 줄로 표시 */
-            font-size: 1.5rem;
-            margin: 5px 0;
-            font-weight: 300;
-            color: #333;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        /* 마우스를 올렸을 때 색상 변경 */
-        .profession-links a:hover {
-            color: #ff6b6b;
-        }
-
-        /* 소셜 아이콘 스타일 */
-        .social-icons {
-            margin-top: 20px;
-        }
-
-        .social-icons a {
-            color: #333;
-            font-size: 2rem;
-            margin-right: 15px;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .social-icons a:hover {
-            color: #ff6b6b;
-        }
-
         /* 오른쪽 섹션 스타일 */
         .right-section {
-            flex: 1;
             padding: 50px;
             display: flex;
             flex-wrap: wrap;
@@ -107,75 +135,85 @@
             font-weight: 500;
         }
 
-        /* 모바일 화면 반응형 설정 */
+        /* 모바일 화면 설정 */
         @media (max-width: 768px) {
-            .container {
-                flex-direction: column; /* 세로 방향으로 변경 */
-                height: auto; /* 높이 자동 조정 */
-                padding: 20px;
+            .navbar-menu {
+                display: none;
             }
 
-            .left-section, .right-section {
+            .hamburger-menu {
+                display: block;
+            }
+
+            .container {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto;
                 padding: 20px;
+                height: auto;
             }
 
             .left-section {
-                order: 1; /* 왼쪽 섹션을 첫 번째로 표시 */
+                grid-row: 1;
             }
 
             .right-section {
-                order: 2; /* 오른쪽 섹션을 두 번째로 표시 */
-                gap: 10px;
-            }
-
-            h1 {
-                font-size: 2.5rem; /* 모바일에서 폰트 크기 조정 */
-            }
-
-            .profession-links a {
-                font-size: 1.2rem;
+                grid-row: 2;
             }
         }
     </style>
 </head>
 <body>
+
+    <!-- 상단 바 -->
+    <header class="navbar">
+        <div class="navbar-logo">Yunsun Joo</div>
+
+        <nav class="navbar-menu">
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="https://github.com/Joostudio" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </nav>
+
+        <div class="hamburger-menu" onclick="toggleMobileMenu()">☰</div>
+    </header>
+
+    <!-- 모바일 메뉴 -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="#home" onclick="toggleMobileMenu()">Home</a>
+        <a href="#portfolio" onclick="toggleMobileMenu()">Portfolio</a>
+        <a href="#contact" onclick="toggleMobileMenu()">Contact</a>
+        <a href="https://github.com/Joostudio" target="_blank" onclick="toggleMobileMenu()">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
     <div class="container">
-        
-        <!-- 왼쪽 섹션 -->
         <div class="left-section">
             <h1>Yunsun Joo</h1>
-
-            <!-- 각각 다른 링크를 설정할 수 있도록 분리 -->
             <div class="profession-links">
                 <a href="#" title="UI/UX Design">UI/UX Design</a>
                 <a href="#" title="Illustration">Illustration</a>
             </div>
-
-            <!-- 소셜 아이콘 -->
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/yunsunjoo" target="_blank" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://www.instagram.com/joostudio.gallary" target="_blank" title="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.etsy.com/shop/joostudio" target="_blank" title="Etsy Store">
-                    <i class="fab fa-etsy"></i>
-                </a>
-                <a href="https://github.com/Joostudio" target="_blank" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
         </div>
-        
-        <!-- 오른쪽 섹션 -->
+
         <div class="right-section">
             <div class="project-card">Project 1</div>
             <div class="project-card">Project 2</div>
             <div class="project-card">Project 3</div>
             <div class="project-card">Project 4</div>
         </div>
-
     </div>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+
 </body>
 </html>
