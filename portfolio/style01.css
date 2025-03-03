@@ -1,3 +1,4 @@
+/* 전체 스타일 */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -8,6 +9,7 @@ body {
     padding-top: 80px; /* 상단 바 공간 확보 */
 }
 
+/* 상단 바 스타일 */
 .navbar {
     position: fixed;
     top: 0;
@@ -23,11 +25,13 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* 로고 스타일 */
 .navbar-logo {
     font-size: 2rem;
     font-weight: 700;
 }
 
+/* 페이지 레이아웃 설정 */
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,6 +42,7 @@ body {
     align-items: center;
 }
 
+/* 왼쪽 섹션 스타일 */
 .left-section {
     padding: 50px;
     background-color: #ffcccb;
@@ -53,6 +58,7 @@ body {
     font-weight: 700;
 }
 
+/* 직업 텍스트 스타일 */
 .profession-links {
     margin: 20px 0;
 }
@@ -67,10 +73,12 @@ body {
     transition: color 0.3s;
 }
 
+/* 마우스를 올렸을 때 색상 변경 */
 .profession-links a:hover {
     color: #ff6b6b;
 }
 
+/* 소셜 아이콘 스타일 */
 .social-icons {
     margin-top: 20px;
 }
@@ -87,6 +95,7 @@ body {
     color: #ff6b6b;
 }
 
+/* 오른쪽 섹션 스타일 */
 .right-section {
     display: flex;
     justify-content: center;
@@ -100,6 +109,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* 모바일 화면 반응형 */
 @media (max-width: 768px) {
     .navbar {
         padding: 15px 20px;
@@ -109,6 +119,7 @@ body {
         font-size: 1.8rem;
     }
 
+    /* 모바일에서 세로 배치 */
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
@@ -116,6 +127,7 @@ body {
         padding: 20px;
     }
 
+    /* 왼쪽 단락을 항상 최상단으로 */
     .left-section {
         order: 1;
         padding: 30px;
@@ -126,6 +138,7 @@ body {
         padding: 20px;
     }
 
+    /* 모바일 폰트 크기 조정 */
     .left-section h1 {
         font-size: 2.5rem;
     }
