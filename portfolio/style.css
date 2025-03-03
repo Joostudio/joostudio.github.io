@@ -39,13 +39,13 @@ body {
 }
 
 .left-section {
-    padding: 80px;
+    padding: 40px;
     background-color: #ffcccb;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 100%; 
+    width: 100%;
     height: auto;
 }
 
