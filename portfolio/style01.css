@@ -44,12 +44,18 @@ body {
 
 /* 왼쪽 섹션 스타일 */
 .left-section {
-    padding: 50px;
-    background-color: #ffcccb;
+    padding: 80px; /* 패딩을 키워서 내부 여백 증가 */
+    background-color: #ff9999; /* 기존보다 더 진한 핑크색으로 변경 */
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 100%; /* 전체 너비 사용 */
+    max-width: 600px; /* 최대 너비 증가 */
+    height: auto; /* 높이를 내용에 맞게 자동 조절 */
+    min-height: 500px; /* 최소 높이 설정 */
+    border-radius: 15px; /* 모서리를 둥글게 */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
 }
 
 .left-section h1 {
