@@ -110,8 +110,6 @@ body {
     }
 }
 
-
-
 /* 텍스트 컨테이너 스타일 */
 .waveTextAnimated {
     margin-top: 0.6em;
@@ -154,6 +152,14 @@ body {
 .waveTextAnimated span:nth-of-type(20) { animation-delay: 1.9s; }
 .waveTextAnimated span:nth-of-type(21) { animation-delay: 2s; }
 .waveTextAnimated span:nth-of-type(22) { animation-delay: 2.1s; }
+.waveTextAnimated span:nth-of-type(23) { animation-delay: 2.2s; }
+.waveTextAnimated span:nth-of-type(24) { animation-delay: 2.3s; }
+.waveTextAnimated span:nth-of-type(25) { animation-delay: 2.4s; }
+.waveTextAnimated span:nth-of-type(26) { animation-delay: 2.5s; }
+.waveTextAnimated span:nth-of-type(27) { animation-delay: 2.6s; }
+.waveTextAnimated span:nth-of-type(28) { animation-delay: 2.7s; }
+.waveTextAnimated span:nth-of-type(29) { animation-delay: 2.8s; }
+.waveTextAnimated span:nth-of-type(30) { animation-delay: 2.9s; }
 
 /* 물결 애니메이션 */
 @keyframes waveEffect {
@@ -166,7 +172,8 @@ body {
     100% {
         transform: translateY(0);
     }
-}
+} 
+
 
 /* Experience 섹션 스타일 */
 .experience {
