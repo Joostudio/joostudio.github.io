@@ -288,6 +288,21 @@ body {
     margin-bottom: 10px;
 }
 
+/* 이미지 반응형 스타일 */
+.ioffering-images img {
+    max-width: 100%;  /* 화면 크기에 맞게 조정 */
+    height: auto;
+    display: block;
+    margin: 0 auto;  /* 가운데 정렬 */
+}
+
+/* 작은 화면 (모바일) 대응 */
+@media screen and (max-width: 768px) {
+    .ioffering-images img {
+        width: 90%;  /* 모바일에서는 가로 크기 90%로 조정 */
+        max-width: 400px;  /* 너무 커지지 않도록 제한 */
+    }
+}
 /* 태그 스타일 */
 .tags {
     display: flex;
