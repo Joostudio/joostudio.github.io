@@ -31,11 +31,13 @@ body {
     margin: 0 auto;
 }
 
-.nav-left {
+.nav-left a {
+    text-decoration: none; /* 밑줄 없음 */
     font-size: 24px;
-    font-weight: medium;
+    font-weight: 500; /* medium은 500 */
     color: #2d2d2d;
 }
+
 
 .nav-right a {
     text-decoration: none;
@@ -98,12 +100,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.bio p {
-    margin: 0; /* ✅ 줄 바꿈 시 여백 제거 */
-    padding: 0; /* ✅ 추가 여백 방지 */
-    line-height: 1.6; /* ✅ 줄 간격 유지 */
-}
-
 
 /* ✅ 반응형 자기소개 스타일 */
 @media (max-width: 768px) {
