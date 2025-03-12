@@ -322,7 +322,33 @@ body {
 
 /* 푸터 스타일 */
 .footer {
-    text-align: center;
-    margin-top: 1px;
-    padding: 1px 0;
+    display: flex; /* ✅ Flexbox 사용 */
+    flex-direction: column; /* ✅ 세로 정렬 */
+    align-items: flex-end; /* ✅ 모든 내용 오른쪽 정렬 */
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+/* 링크들을 포함하는 컨테이너 */
+.footer-links {
+    display: flex;
+    flex-direction: column; /* ✅ 한 줄씩 정렬 */
+    align-items: flex-end; /* ✅ 링크들도 오른쪽 정렬 */
+}
+
+/* 푸터 내 링크 스타일 */
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    display: block; /* ✅ 한 줄씩 나열 */
+    margin-bottom: 5px; /* ✅ 링크 간격 조정 */
+}
+
+/* 저작권 문구 스타일 */
+.copyright {
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    margin-top: 10px;
 }
