@@ -322,9 +322,12 @@ body {
 
 /* 푸터 스타일 */
 .footer {
-    display: flex; /* ✅ Flexbox 사용 */
-    flex-direction: column; /* ✅ 세로 정렬 */
-    align-items: flex-end; /* ✅ 모든 내용 오른쪽 정렬 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%; /* 부모 요소 기준으로 꽉 차도록 */
+    max-width: 1100px; /* ✅ body의 최대 너비와 동일하게 설정 */
+    margin: 0 auto; /* ✅ 중앙 정렬 */
     padding: 10px 20px;
     background-color: #f8f8f8;
 }
