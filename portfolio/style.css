@@ -210,6 +210,11 @@ body.light-theme {
     font-weight: bold;
     color: #fd3e3e;
 }
+.experience-item h3 {
+    font-family: 'Crimson Text', serif !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }  
 
 /* 구분선 */
 .experience hr {
