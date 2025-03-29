@@ -8,11 +8,11 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-color: #fefbf6; /* Light mode */
+    background-color: #f5ebe0; /* Light mode */
 }
 
 body.light-theme {
-    background-color: #fefbf6; /* Medium 스타일의 아이보리 톤 */
+    background-color: #f5ebe0; /* Medium 스타일의 아이보리 톤 */
     color: #333;
   }
   
@@ -34,7 +34,7 @@ body.light-theme {
 .navbar {
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    background-color: #ffffff; /* 흰색 배경 */
+    background-color: #fff9f2; /* 흰색 배경 */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* drop shadow 추가 */
     padding: 15px 0;
     position: fixed;
@@ -214,10 +214,7 @@ body.light-theme {
 .experience-item h3 a {
     font-family: 'Crimson Text', serif !important;
     font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 1.4;
-    color: black; /* 혹시 기존 color 때문에 문제가 생길까봐 명시 */
-    text-decoration: none;
+    font-size: 35px;
   }
   
 
@@ -341,7 +338,7 @@ body.light-theme {
 }
 
 .tags span {
-    background-color: white;
+    background-color: #fff9f2;
     border: 2px solid black;
     padding: 5px 10px;
     border-radius: 20px;
@@ -357,12 +354,13 @@ body.light-theme {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 90%; /* 부모 요소 기준으로 꽉 차도록 */
-    max-width: 1100px; /* ✅ body의 최대 너비와 동일하게 설정 */
-    margin: 0 auto; /* ✅ 중앙 정렬 */
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 10px 20px;
-    background-color: #f8f8f8;
+    background-color: transparent;
 }
+  
 
 /* 링크들을 포함하는 컨테이너 */
 .footer-links {
