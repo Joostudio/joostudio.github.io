@@ -1,18 +1,34 @@
 /* 전체 스타일 초기화 */
-html, body {
+body {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
-    background-color: #e1dbce; /* 연한 베이지 배경 */
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-}
-body {
+    text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 100vh;
+    background-color: #fefbf6; /* Light mode */
 }
 
+body.light-theme {
+    background-color: #fefbf6; /* Medium 스타일의 아이보리 톤 */
+    color: #333;
+  }
+  
+  .section {
+    width: 100%;
+    padding: 80px 20px;
+  }
+  
+  .section-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
   
 /* Navbar 스타일 */
 .navbar {
