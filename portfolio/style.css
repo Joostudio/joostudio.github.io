@@ -210,11 +210,16 @@ body.light-theme {
     font-weight: bold;
     color: #fd3e3e;
 }
-.experience-item h3 {
+
+.experience-item h3 a {
     font-family: 'Crimson Text', serif !important;
     font-weight: 600;
-    font-size: 1.5rem;
-  }  
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: black; /* 혹시 기존 color 때문에 문제가 생길까봐 명시 */
+    text-decoration: none;
+  }
+  
 
 /* 구분선 */
 .experience hr {
