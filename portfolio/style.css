@@ -1,15 +1,19 @@
 /* 전체 스타일 초기화 */
-body {
-    font-family: 'Poppins', sans-serif;
+html, body {
     margin: 0;
     padding: 0;
-    text-align: center;
+    height: 100%;
+    background-color: #e1dbce; /* 연한 베이지 배경 */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     min-height: 100vh;
 }
 
+  
 /* Navbar 스타일 */
 .navbar {
     font-family: 'Poppins', sans-serif;
