@@ -205,16 +205,38 @@ body.light-theme {
 }
 
 /* 섹션 제목 */
+
+.project-title {
+    font-family: 'Crimson Text', serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fd3e3e;
+    margin-top: 120px; /* 네비게이션 높이 고려 */
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.project-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    color: #444;
+    line-height: 1.6;
+  }
+
 .experience h2 {
     font-size: 28px;
     font-weight: bold;
     color: #fd3e3e;
 }
 
-.experience-item h3 a {
-    font-family: 'Crimson Text', serif !important;
-    font-weight: 600;
-    font-size: 35px;
+.experience-item h3 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    margin-bottom: 10px;
   }
   
 
