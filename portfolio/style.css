@@ -195,6 +195,38 @@ body.light-theme {
 
 
 
+
+/* 홈 전용 카드 레이아웃 */
+.home-grid {
+    display: block;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .home-grid {
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+  }
+  
+  .home-grid .experience-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 1.8rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .home-grid .experience-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+
+
+
 /* Experience 섹션 스타일 */
 .experience {
     margin-top: 50px;
@@ -202,30 +234,6 @@ body.light-theme {
     width: 90%;
     max-width: 1100px;
     text-align: left;
-}
-
-/* 카드 레이아웃 그리드 적용 */
-.experience-grid {
-    display: block;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin-top: 3rem;
-}
-
-/* 개별 카드 스타일 */
-.experience-item {
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 16px;
-    padding: 1.8rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-/* 카드 호버 효과 */
-.experience-item:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
 
