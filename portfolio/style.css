@@ -221,6 +221,30 @@ img {
     color: #fd3e3e; /* LinkedIn blue or 너의 테마 컬러 */
   }
   
+  .about-card {
+    background-color: #f9f9f9;  /* 은은한 배경 */
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .about-card:hover {
+    border-right: 10px solid #ff6666; /* 포인트 컬러 */
+    border-bottom: 10px solid #ff6666; /* 포인트 컬러 */
+    background-color: #fdfafa;
+  }
+  .about-card p + p {
+    margin-top: 12px;
+  }
+  
+  
+  
+  
+  
   
 
 /* 텍스트 컨테이너 스타일 */
