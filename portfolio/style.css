@@ -206,7 +206,7 @@ body.light-theme {
 
 /* 카드 레이아웃 그리드 적용 */
 .experience-grid {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
