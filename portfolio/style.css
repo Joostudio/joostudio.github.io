@@ -137,6 +137,92 @@ img {
     }
 }
 
+/* 접힘 */
+.hidden {
+    display: none;
+  }
+  
+  .intro {
+    margin-bottom: 0.0rem; /* 또는 0으로 해도 됨 */
+  }
+
+  .read-more-btn {
+    margin-top: 0.0rem;
+    font-size: 20px;               /* bio랑 맞추기 */
+    font-family: 'Metal', serif;  /* Metal 폰트 적용 */
+    font-style: italic;
+    font-weight: 600;              /* 굵게 */
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+
+  .read-more-inline {
+    background: none;
+    border: none;
+    font-size: 1em;
+    font-family: 'Metal', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #333;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 4px;
+    text-decoration: none;
+  }
+  
+  .read-more-btn:hover {
+    color: #fd3e3e;
+  }
+
+
+/* about me 버튼 */
+.about-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: #333;
+    padding: 0.4rem 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .about-btn span {
+    font-size: 14px;
+    font-family: 'poppins', san-serif;
+    font-weight: 500;
+    color: #f7f7f4; /* ✅ 텍스트 색상 */
+    display: inline-block;
+  }
+  
+  .about-btn:hover {
+    background-color: #fd3e3e; /* 포인트 컬러로 hover 효과 */
+    transform: translateY(-2px); /* 살짝 올라가는 효과 */
+  }
+  .about-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 35px;
+    margin-top: 8px;
+  }
+  
+  .about-icons a {
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  .about-icons a:hover {
+    color: #fd3e3e; /* LinkedIn blue or 너의 테마 컬러 */
+  }
+  
+  
+
 /* 텍스트 컨테이너 스타일 */
 .waveTextAnimated {
     margin-top: 0.6em;
