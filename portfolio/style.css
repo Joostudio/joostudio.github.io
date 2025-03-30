@@ -72,14 +72,13 @@ body.light-theme {
 
 /* 전체 컨텐츠 가운데 정렬 */
 .content {
+    background-color: #f7f7f4; /* 원하는 색상으로 바꿔도 됨 */
+    padding: 60px 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 120px; /* Navbar 높이 고려 */
-    width: 80%;
-    max-width: 800px;
-}
+  }
 
 /* 로고 이미지 */
 .logo img {
@@ -109,16 +108,16 @@ body.light-theme {
 
 /* 자기소개 섹션 스타일 */
 .bio {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-top: 20px;
-    width: 80%;
-    max-width: 900px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  background-color: transparent; /* 카드 배경 제거 */
+  padding: 0 5%; /* 양옆 여백만 살짝 */
+  width: 100%;
+  max-width: 800px;
+  font-family: 'Metal', serif;
+  font-size: 23px;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 /* ✅ 반응형 자기소개 스타일 */
