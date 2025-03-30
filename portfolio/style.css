@@ -59,17 +59,80 @@ body.light-theme {
     color: #2d2d2d;
 }
 
+.nav-links {
+  display: flex;
+  gap: 24px;
+  font-family: 'Poppins', sans-serif;
+}
 
-.nav-right a {
-    text-decoration: none;
+.nav-links a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2d2d2d;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff0000;
+}
+
+
+/* 햄버거 버튼 - 기본은 숨김 */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #2d2d2d;
+}
+
+/* 작은 화면에서만 햄버거 보이기 */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    z-index: 200;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 249, 242, 0.9); /* 반투명 배경 */
+    backdrop-filter: blur(8px); /* 블러 효과 */
+    z-index: 150;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 24px;
+    margin: 16px 0;
     color: #2d2d2d;
-    font-weight: 500;
+    text-decoration: none;
+    font-weight: 600;
     transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: #ff0000;
+  }
 }
 
-.nav-right a:hover {
-    color: #ff0000;
-}
+
+
 
 img {
     max-width: 100%;
@@ -163,7 +226,7 @@ img {
   
   
   .read-more-btn:hover {
-    color: #fd3e3e;
+    color: #ff0000;
   }
 
 
@@ -187,7 +250,7 @@ img {
   }
   
   .about-btn:hover {
-    background-color: #fd3e3e; /* 포인트 컬러로 hover 효과 */
+    background-color: #ff0000; /* 포인트 컬러로 hover 효과 */
     transform: translateY(-2px); /* 살짝 올라가는 효과 */
   }
   .about-icons {
@@ -204,7 +267,7 @@ img {
   }
   
   .about-icons a:hover {
-    color: #fd3e3e; /* LinkedIn blue or 너의 테마 컬러 */
+    color: #ff0000; /* LinkedIn blue or 너의 테마 컬러 */
   }
   
   .about-card {
@@ -587,6 +650,20 @@ img {
     display: block; /* ✅ 한 줄씩 나열 */
     margin-bottom: 5px; /* ✅ 링크 간격 조정 */
 }
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* 부드럽게 전환 */
+}
+
+.footer-links a:hover {
+  color: #ff6666; /* 포인트 컬러 */
+}
+
 
 /* 저작권 문구 스타일 */
 .copyright {
