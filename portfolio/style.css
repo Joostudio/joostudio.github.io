@@ -194,6 +194,7 @@ body.light-theme {
 } 
 
 
+
 /* Experience 섹션 스타일 */
 .experience {
     margin-top: 50px;
@@ -203,7 +204,30 @@ body.light-theme {
     text-align: left;
 }
 
-/* 섹션 제목 */
+/* 카드 레이아웃 그리드 적용 */
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+/* 개별 카드 스타일 */
+.experience-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 1.8rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 카드 호버 효과 */
+.experience-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
 
 .project-context {
     font-family: 'Poppins', serif;
