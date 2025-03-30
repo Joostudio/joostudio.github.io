@@ -5,6 +5,7 @@ body {
     padding: 0;
     text-align: center;
     display: flex;
+    overflow-x: hidden; /* ✅ 가로 스크롤 방지 */
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
@@ -260,6 +261,11 @@ body.light-theme {
     line-height: 1.1;
   }
   
+  @media (max-width: 768px) {
+    .project-title {
+        font-size: 2rem; /* 모바일 화면에서 글씨 크기 축소 */
+    }
+}
 
 .experience h2 {
     font-size: 28px;
