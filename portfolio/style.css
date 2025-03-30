@@ -161,20 +161,6 @@ img {
     transition: color 0.3s ease;
   }
   
-
-  .read-more-inline {
-    background: none;
-    border: none;
-    font-size: 1em;
-    font-family: 'Metal', sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    color: #333;
-    cursor: pointer;
-    padding: 0;
-    margin-left: 4px;
-    text-decoration: none;
-  }
   
   .read-more-btn:hover {
     color: #fd3e3e;
@@ -328,7 +314,7 @@ img {
     }
   }
   
-  .home-grid .experience-item {
+  .home-grid .portfolio-item {
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 16px;
@@ -337,7 +323,7 @@ img {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
-  .home-grid .experience-item:hover {
+  .home-grid .portfolio-item:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
   }
@@ -345,15 +331,32 @@ img {
 
 
 
-/* Experience 섹션 스타일 */
-.experience {
+.folio-images {
+  display: block;
+  text-align: left;
+}
+
+.img-small {
+  max-height: 500px;
+}
+
+.img-medium {
+  max-height: 600px;
+}
+
+.img-large {
+  max-width: 700px;
+}
+
+
+/* portfolio 섹션 스타일 */
+.portfolio {
     margin-top: 50px;
     padding: 20px;
     width: 90%;
     max-width: 1100px;
     text-align: left;
 }
-
 
 .project-context {
     font-family: 'Poppins', serif;
@@ -384,13 +387,13 @@ img {
     }
 }
 
-.experience h2 {
+.portfolio h2 {
     font-size: 28px;
     font-weight: bold;
     color: #fd3e3e;
 }
 
-.experience-item h3 {
+.portfolio-item h3 {
     font-family: 'Crimson Text', serif;
     font-weight: 600 !important;
     font-size: 35px !important;
@@ -399,7 +402,7 @@ img {
   
 
 /* 구분선 */
-.experience hr {
+.portfolio hr {
     border: none;
     height: 1px;
     background-color: #000;
@@ -407,19 +410,19 @@ img {
 }
 
 /* 개별 경험 항목 */
-.experience-item {
+.portfolio-item {
     margin-bottom: 30px;
 }
 
 /* 경험 제목 */
-.experience-item h3 {
+.portfolio-item h3 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 /* 경험 제목 내 링크 스타일 */
-.experience-item h3 a {
+.portfolio-item h3 a {
     text-decoration: none;
     color: black; /* ✅ 글씨는 검정색 유지 */
     font-weight: bold;
@@ -428,7 +431,7 @@ img {
 }
 
 /* 화살표 아이콘 스타일 */
-.experience-item h3 a i {
+.portfolio-item h3 a i {
     font-size: 14px; /* ✅ 아이콘 크기 */
     margin-left: 5px; /* ✅ 텍스트와 아이콘 사이 간격 */
     color: red; /* ✅ 아이콘만 빨간색 */
@@ -437,7 +440,7 @@ img {
 
 
 /* 설명 문구 */
-.experience-item p {
+.portfolio-item p {
     font-size: 16px;
     color: #333;
     line-height: 1.5;
@@ -462,7 +465,7 @@ img {
     display: inline-block;
 }
 /* 추가 경험 섹션 스타일 */
-.additional-experience {
+.additional-portfolio {
     margin-top: 20px;
     padding: 20px;
     width: 80%;
@@ -471,24 +474,24 @@ img {
 }
 
 /* 경험 제목 */
-.additional-experience h3 {
+.additional-portfolio h3 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.additional-experience h3 a {
+.additional-portfolio h3 a {
     text-decoration: none;
     color: black;
 }
 
-.additional-experience h3 a span {
+.additional-portfolio h3 a span {
     color: red;
     font-size: 16px;
 }
 
 /* 설명 문구 */
-.additional-experience p {
+.additional-portfolio p {
     font-size: 16px;
     color: #333;
     line-height: 1.5;
