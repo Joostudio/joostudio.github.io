@@ -8,11 +8,11 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-color: #f5ebe0; /* Light mode */
+    background-color: #edede9; /* Light mode */
 }
 
 body.light-theme {
-    background-color: #f5ebe0; /* Medium 스타일의 아이보리 톤 */
+    background-color: #edede9; /* Medium 스타일의 아이보리 톤 */
     color: #333;
   }
   
@@ -338,7 +338,7 @@ body.light-theme {
 }
 
 .tags span {
-    background-color: #fff9f2;
+    background-color: #f7f7f7;
     border: 2px solid black;
     padding: 5px 10px;
     border-radius: 20px;
@@ -350,16 +350,47 @@ body.light-theme {
 
 
 /* 푸터 스타일 */
-.footer {
+.footer-wrapper {
+    background-color: #22333b;
+    color: #edede9;
+    padding: 3rem 0 2rem 0;
+    width: 100%;
+    position: relative;
+  }
+  
+  .footer-wrapper::before {
+    content: '';
+    display: block;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #cacac2;
+    opacity: 0.4; /* 살짝 투명도 주면 감각적 */
+    margin-bottom: 2rem;
+  }
+  
+  
+  .footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 10px 20px;
-    background-color: transparent;
-}
+    color: inherit;
+    font-family: 'Poppins', serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.4px;
+    line-height: 1.6;
+  }
+  
+  .footer p {
+    margin: 0;
+    text-align: right;
+  }
+  
+  
   
 
 /* 링크들을 포함하는 컨테이너 */
@@ -371,7 +402,7 @@ body.light-theme {
 
 /* 푸터 내 링크 스타일 */
 .footer-links a {
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
     display: block; /* ✅ 한 줄씩 나열 */
