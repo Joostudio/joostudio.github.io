@@ -71,6 +71,13 @@ body.light-theme {
     color: #ff0000;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  
 /* 전체 컨텐츠 가운데 정렬 */
 .content {
     background-color: #f7f7f4; /* 원하는 색상으로 바꿔도 됨 */
