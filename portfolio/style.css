@@ -358,18 +358,6 @@ body.light-theme {
     position: relative;
   }
   
-  .footer-wrapper::before {
-    content: '';
-    display: block;
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-    height: 1px;
-    background-color: #cacac2;
-    opacity: 0.4; /* 살짝 투명도 주면 감각적 */
-    margin-bottom: 2rem;
-  }
-  
   
   .footer {
     display: flex;
@@ -390,6 +378,14 @@ body.light-theme {
     text-align: right;
   }
   
+  .footer-divider {
+    width: 100%;
+    max-width: 1100px;
+    height: 1px;
+    background-color: #edede9;
+    margin: 2rem auto;
+    opacity: 0.4;
+  }
   
   
 
