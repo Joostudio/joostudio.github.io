@@ -205,25 +205,29 @@ body.light-theme {
 
 /* 섹션 제목 */
 
-.project-title {
+.project-context {
+    font-family: 'Poppins', serif;
+    font-size: 1.2rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 5rem; /* 헤더 상단과의 여백 */
+    margin-bottom: 0rem; /* 타이틀과의 간격 확보 */
+    text-align: left;
+    line-height: 1.1;
+  }
+  
+  .project-title {
     font-family: 'Crimson Text', serif;
     font-size: 4rem;
     font-weight: 800;
     color: #fd3e3e;
-    margin-top: 120px; /* 네비게이션 높이 고려 */
-    margin-bottom: 1rem;
-    text-align: center;
-    letter-spacing: 0.5px;
-}
-
-.project-subtitle {
-    text-align: center;
-    font-size: 1.1rem;
-    max-width: 900px;
-    margin: 0 auto 2rem;
-    color: #444;
-    line-height: 1.6;
+    text-align: left;
+    margin-top: 0; /* context가 여백을 가지고 있으므로 0으로 줄임 */
+    margin-bottom: 2rem;
+    line-height: 1.1;
   }
+  
 
 .experience h2 {
     font-size: 28px;
