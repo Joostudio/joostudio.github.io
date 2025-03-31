@@ -1,0 +1,87 @@
+
+/* 텍스트 컨테이너 스타일 */
+.waveTextAnimated {
+    margin-top: 0.6em;
+    font-size: 24px; /* 원하는 크기로 조정 가능 */
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+
+/* 각 글자에 애니메이션 적용 */
+.waveTextAnimated span {
+    display: inline-block;
+    animation: waveEffect 1s ease-in-out infinite;
+}
+
+/* 각 글자에 시간차를 두어 애니메이션 딜레이 적용 */
+.waveTextAnimated span:nth-of-type(1) { animation-delay: 0s; }
+.waveTextAnimated span:nth-of-type(2) { animation-delay: 0.1s; }
+.waveTextAnimated span:nth-of-type(3) { animation-delay: 0.2s; }
+.waveTextAnimated span:nth-of-type(4) { animation-delay: 0.3s; }
+.waveTextAnimated span:nth-of-type(5) { animation-delay: 0.4s; }
+.waveTextAnimated span:nth-of-type(6) { animation-delay: 0.5s; }
+.waveTextAnimated span:nth-of-type(7) { animation-delay: 0.6s; }
+.waveTextAnimated span:nth-of-type(8) { animation-delay: 0.7s; }
+.waveTextAnimated span:nth-of-type(9) { animation-delay: 0.8s; }
+.waveTextAnimated span:nth-of-type(10) { animation-delay: 0.9s; }
+.waveTextAnimated span:nth-of-type(11) { animation-delay: 1s; }
+.waveTextAnimated span:nth-of-type(12) { animation-delay: 1.1s; }
+.waveTextAnimated span:nth-of-type(13) { animation-delay: 1.2s; }
+.waveTextAnimated span:nth-of-type(14) { animation-delay: 1.3s; }
+.waveTextAnimated span:nth-of-type(15) { animation-delay: 1.4s; }
+.waveTextAnimated span:nth-of-type(16) { animation-delay: 1.5s; }
+.waveTextAnimated span:nth-of-type(17) { animation-delay: 1.6s; }
+.waveTextAnimated span:nth-of-type(18) { animation-delay: 1.7s; }
+.waveTextAnimated span:nth-of-type(19) { animation-delay: 1.8s; }
+.waveTextAnimated span:nth-of-type(20) { animation-delay: 1.9s; }
+.waveTextAnimated span:nth-of-type(21) { animation-delay: 2s; }
+.waveTextAnimated span:nth-of-type(22) { animation-delay: 2.1s; }
+.waveTextAnimated span:nth-of-type(23) { animation-delay: 2.2s; }
+.waveTextAnimated span:nth-of-type(24) { animation-delay: 2.3s; }
+.waveTextAnimated span:nth-of-type(25) { animation-delay: 2.4s; }
+.waveTextAnimated span:nth-of-type(26) { animation-delay: 2.5s; }
+.waveTextAnimated span:nth-of-type(27) { animation-delay: 2.6s; }
+.waveTextAnimated span:nth-of-type(28) { animation-delay: 2.7s; }
+.waveTextAnimated span:nth-of-type(29) { animation-delay: 2.8s; }
+.waveTextAnimated span:nth-of-type(30) { animation-delay: 2.9s; }
+
+/* 물결 애니메이션 */
+@keyframes waveEffect {
+    0% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-5px); /* 위로 살짝 올라감 */
+    }
+    100% {
+        transform: translateY(0);
+    }
+} 
+
+
+
+/* 손흔드는 이모지 애니메이션 */
+.emoji-wave {
+    display: inline-block;
+    animation: waveHand 2s infinite;
+    transform-origin: 70% 70%; /* 손목 중심으로 회전 */
+    font-size: 1em; /* 기본 크기 */
+  }
+  
+  /* 애니메이션 keyframes */
+  @keyframes waveHand {
+    0% { transform: rotate(0.0deg); }
+    10% { transform: rotate(14.0deg); }
+    20% { transform: rotate(-8.0deg); }
+    30% { transform: rotate(14.0deg); }
+    40% { transform: rotate(-4.0deg); }
+    50% { transform: rotate(10.0deg); }
+    60% { transform: rotate(0.0deg); }
+    100% { transform: rotate(0.0deg); }
+  }
+  
