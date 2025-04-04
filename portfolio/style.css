@@ -135,7 +135,7 @@ body.light-theme {
 
 /* 홈 전용 카드 레이아웃 */
 .home-grid {
-  display: flex;
+  display: block;
   grid-template-columns: 1fr;
   gap: 2rem;
   margin-top: 3rem;
