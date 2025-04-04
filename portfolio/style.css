@@ -135,7 +135,7 @@ body.light-theme {
 
 /* 홈 전용 카드 레이아웃 */
 .home-grid {
-  display: block;
+  display: flex;
   grid-template-columns: 1fr;
   gap: 2rem;
   margin-top: 3rem;
@@ -338,6 +338,8 @@ img {
 .img-large {
   max-width: 700px;
 }
+
+
 
 
 /* portfolio 섹션 스타일 */
