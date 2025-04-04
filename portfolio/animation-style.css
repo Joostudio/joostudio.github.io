@@ -12,6 +12,18 @@
     gap: 2px;
 }
 
+/* 모바일 최적화 - 바로 밑에 추가! */
+@media (max-width: 768px) {
+    .waveTextAnimated {
+      max-width: 90%;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.4;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
 /* 각 글자에 애니메이션 적용 */
 .waveTextAnimated span {
     display: inline-block;
@@ -62,6 +74,9 @@
         transform: translateY(0);
     }
 } 
+
+
+
 
 
 
