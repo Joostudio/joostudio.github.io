@@ -1,27 +1,26 @@
-  // 내용 펼치기/접기 전환
-const button = document.getElementById("toggleButton");
-const moreContent = document.querySelector(".more-content");
-
-button.addEventListener("click", () => {
-  moreContent.classList.toggle("hidden");
-  button.textContent = moreContent.classList.contains("hidden") ? "Read more" : "Read less";
-});
-
-
 // portfolio/script.js
-document.addEventListener('DOMContentLoaded', function () {
-  const hamburger = document.getElementById('hamburger');
-  const navLinks = document.querySelector('.nav-links');
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 햄버거 메뉴
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.querySelector(".nav-links");
 
   if (hamburger && navLinks) {
-    hamburger.addEventListener('click', function () {
-      navLinks.classList.toggle('active');
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  }
+
+  // Read more 버튼 (index.html에만 존재)
+  const button = document.getElementById("toggleButton");
+  const moreContent = document.querySelector(".more-content");
+
+  if (button && moreContent) {
+    button.addEventListener("click", () => {
+      moreContent.classList.toggle("hidden");
+      button.textContent = moreContent.classList.contains("hidden")
+        ? "Read more"
+        : "Read less";
     });
   }
 });
-
-
-
-
-
-
