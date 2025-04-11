@@ -126,6 +126,25 @@ color: #2d2d2d;
   }
 }
 
+/* Scroll >> */
+.scroll-indicator {
+  font-size: 30px;
+  color: #999;
+  margin-top: 0rem;
+  animation: flickerWhite 1.5s infinite ease-in-out;
+}
+
+@keyframes flickerWhite {
+  0%, 53.3%, 100% {
+    color: #999;
+  }
+  13.3% {
+    color: #edede9;
+  }
+}
+
+
+
 
 /* Home 전용 스타일 */
 
@@ -211,8 +230,9 @@ font-family: 'Metal', serif;
 font-size: 23px;
 line-height: 1.5;
 text-align: left;
-margin-top: 40px;
+margin-top: 20px;
 margin-bottom: 60px;
+position: relative;
 }
 
 /* ✅ 반응형 자기소개 스타일 */
@@ -257,7 +277,8 @@ margin-bottom: 60px;
 /* about me 버튼 */
 .about-btn {
   display: inline-block;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
   background-color: #333;
   padding: 0.4rem 1.2rem;
   border-radius: 30px;
