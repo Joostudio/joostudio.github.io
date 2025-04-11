@@ -41,4 +41,11 @@ Thanks again for your interest!*
 just sheer curiosity, lots of Googling, and a bit of chaos.  
 Maybe people are amazed by my recklessness and lack of technical awareness. Who knows? 😂
 
+
+⚠️ Editing the site manually was... intense.  
+At one point I genuinely wondered,  
+"Wait… am I supposed to style every section individually with CSS...?"  
+Turns out, yes — if you don’t use a framework. 😂
+
+
 chore: updated README with chaotic truth
