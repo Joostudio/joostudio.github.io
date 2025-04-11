@@ -126,25 +126,6 @@ color: #2d2d2d;
   }
 }
 
-/* Scroll >> */
-.scroll-indicator {
-  font-size: 30px;
-  color: #999;
-  margin-top: 0rem;
-  animation: flickerWhite 1.5s infinite ease-in-out;
-}
-
-@keyframes flickerWhite {
-  0%, 53.3%, 100% {
-    color: #999;
-  }
-  13.3% {
-    color: #edede9;
-  }
-}
-
-
-
 
 /* Home 전용 스타일 */
 
@@ -315,6 +296,63 @@ position: relative;
   color: #ff0000; /* LinkedIn blue or 너의 테마 컬러 */
 }
 
+/* 기본: 둘 다 숨겨 */
+.about-desktop,
+.about-mobile,
+.about-mobile-break {
+  display: none;
+}
+
+/* 모바일 (최대 768px까지만)에서만 보여 */
+@media (max-width: 768px) {
+  .about-mobile,
+  .about-mobile-break {
+    display: inline;
+  }
+
+  .about-desktop {
+    display: none;
+  }
+}
+
+/* 데스크탑 (769px 이상)에서만 보여 */
+@media (min-width: 769px) {
+  .about-desktop {
+    display: block;
+  }
+
+  .about-mobile,
+  .about-mobile-break {
+    display: none;
+  }
+}
+
+
+
+
+/* Scroll >> */
+.scroll-indicator {
+  display: none;
+}
+@media (max-width: 768px) {
+  .scroll-indicator {
+    display: block;
+    font-size: 28px;
+    color: #999;
+    margin-top: 0.4rem;
+    text-align: center;
+    animation: flickerWhite 1.5s infinite ease-in-out;
+  }
+}
+
+@keyframes flickerWhite {
+  0%, 53.3%, 100% {
+    color: #999;
+  }
+  13.3% {
+    color: #edede9;
+  }
+}
 
 .folio-images {
 display: block;
