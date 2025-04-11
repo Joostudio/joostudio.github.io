@@ -46,3 +46,5 @@ Maybe people are amazed by my recklessness and lack of technical awareness. Who 
 🤷‍♀️ I honestly thought this is how websites are made.  
 Turns out I accidentally built something people find refreshing…  
 using just HTML, CSS, and a little bit of pure chaos.
+
+🎯 **The Miracle of Ignorance™**
