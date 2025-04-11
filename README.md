@@ -27,25 +27,22 @@ I’m not exactly sure why, but thank you for visiting. Whether you're here out 
 
 ---
 
-📝 *I built this within what I currently know.  
-I just found out that I could use frameworks or templates — but I haven’t tried them yet.  
-This portfolio was built from scratch as a bold experiment (thanks to GitHub being free).  
-I truly appreciate all the unexpected attention.*
+📝 *I built this within what I currently know.*  
+*I just found out that I could use frameworks or templates — but I haven’t tried them yet.*  
+*This portfolio was built from scratch as a bold experiment (thanks to GitHub being free).*  
+*I truly appreciate all the unexpected attention.*
 
 *I'll continue to update this site as needed — especially for the StyleWise: Pick project, which is evolving toward a functional prototype.  
 Thanks again for your interest!*
 
-
+---
 
 ⚠️ Built without frameworks or templates —  
 just sheer curiosity, lots of Googling, and a bit of chaos.  
 Maybe people are amazed by my recklessness and lack of technical awareness. Who knows? 😂
 
+⚠️ Editing the site manually was... intense.
 
-⚠️ Editing the site manually was... intense.  
-At one point I genuinely wondered,  
-"Wait… am I supposed to style every section individually with CSS...?"  
-Turns out, yes — if you don’t use a framework. 😂
-
-
-chore: updated README with chaotic truth
+🤷‍♀️ I honestly thought this is how websites are made.  
+Turns out I accidentally built something people find refreshing…  
+using just HTML, CSS, and a little bit of pure chaos.
