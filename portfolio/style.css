@@ -317,9 +317,9 @@ position: relative;
   /* scroll-indicator도 모바일에서만 보이게 */
   .scroll-indicator {
     display: block;
-    font-size: 22px; /* 버튼보다 너무 크지 않게 */
+    font-size: 22px;
     color: #999;
-    margin-top: 2rem;
+    padding-top: 4rem; /* ✅ margin보다 확실히 잘 먹힘 */
     text-align: center;
     animation: flickerWhite 1.5s infinite ease-in-out;
   }
