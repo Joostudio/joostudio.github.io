@@ -47,4 +47,9 @@ Maybe people are amazed by my recklessness and lack of technical awareness. Who 
 Turns out I accidentally built something people find refreshing…  
 using just HTML, CSS, and a little bit of pure chaos.
 
+---
+👀 Over 100 people have clicked through from GitHub to view this site.  
+I didn't expect this level of curiosity — but thank you for visiting!  
+Built without frameworks, fueled by Google searches, and now... apparently, watched by many.
+
 🎯 **The Miracle of Ignorance™**
