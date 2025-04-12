@@ -24,3 +24,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 모바일에서만 작동하게 조건 추가
+  if (window.innerWidth <= 768) {
+    const scrollIndicator = document.getElementById("scroll-indicator");
+    const scrollTarget = document.getElementById("scroll-target");
+
+    if (scrollIndicator && scrollTarget) {
+      scrollIndicator.addEventListener("click", function () {
+        scrollTarget.scrollIntoView({ behavior: "smooth" });
+      });
+    }
+  }
+});
