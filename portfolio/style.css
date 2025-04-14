@@ -319,7 +319,7 @@ position: relative;
     display: block;
     font-size: 22px;
     color: #999;
-    padding-top: 4rem; /* ✅ margin보다 확실히 잘 먹힘 */
+    padding-top: 3rem; /* ✅ margin보다 확실히 잘 먹힘 */
     text-align: center;
     animation: flickerWhite 1.5s infinite ease-in-out;
   }
