@@ -1,4 +1,10 @@
-/* 전체 스타일 초기화 */
+/*
+====================================================
+🧼 Resonant Pro Template – Master CSS (cleaned + organized)
+====================================================
+*/
+
+/* GENERAL LAYOUT & RESET */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -31,7 +37,7 @@ body.light-theme {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
-/* Navbar 스타일 */
+/* NAVIGATION BAR */
 .navbar {
   font-family: 'Poppins', sans-serif;
   width: 100%;
@@ -76,8 +82,7 @@ transition: color 0.3s ease;
 color: #ff0000;
 }
 
-
-/* 햄버거 버튼 - 기본은 숨김 */
+/* HAMBURGER MENU*/
 .hamburger {
 display: none;
 background: none;
@@ -87,7 +92,6 @@ cursor: pointer;
 color: #2d2d2d;
 }
 
-/* 작은 화면에서만 햄버거 보이기 */
 @media (max-width: 768px) {
 .hamburger {
   display: block;
@@ -96,6 +100,7 @@ color: #2d2d2d;
   right: 10%;
   z-index: 200;
 }
+
   .nav-links {
     display: none;
     position: fixed;
@@ -126,10 +131,7 @@ color: #2d2d2d;
   }
 }
 
-
-/* Home 전용 스타일 */
-
-/* 홈 전용 카드 레이아웃 */
+/* GRID SYSTEM - HOMEPAGE */
 .home-grid {
 display: block;
 grid-template-columns: 1fr;
@@ -143,6 +145,7 @@ margin-top: 3rem;
 }
 }
 
+/* CARD STYLE */
 .home-grid .portfolio-item {
 background-color: #fff;
 border: 1px solid #e0e0e0;
@@ -157,15 +160,13 @@ transform: translateY(-6px);
 box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
-
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-
-/* 전체 컨텐츠 가운데 정렬 */
+/* MAIN CONTENT */
 .content {
   background-color: #f7f7f4; /* 원하는 색상으로 바꿔도 됨 */
   padding: 60px 0;
@@ -175,14 +176,13 @@ img {
   align-items: center;
 }
 
-/* 로고 이미지 */
 .logo img {
   width: 200px;
   height: auto;
   margin: 20px 0;
 }
 
-/* 소셜 아이콘 스타일 */
+/* SOCIAL ICONS */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -201,10 +201,57 @@ img {
   color: #ff0000;
 }
 
+/* BIO SECTION */
+.bio {
+background-color: transparent; 
+padding: 0 5%; 
+width: 100%;
+max-width: 800px;
+font-family: 'Metal', serif;
+font-size: 23px;
+line-height: 1.5;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 60px;
+position: relative;
+}
 
+@media (max-width: 768px) {
+  .bio {
+      width: 90%; 
+      font-size: 16px; 
+      text-align: center;
+  }
+}
 
+.hidden {
+  display: none;
+}
 
-/* about me 버튼 */
+.intro {
+  margin-bottom: 0.0rem; 
+}
+
+.read-more-btn {
+  margin-top: 0.0rem;
+  font-size: 20px;               
+  font-family: 'Metal', serif;  
+  font-style: italic;
+  font-weight: 600;              
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  color: #ff0000;
+}
+
+/* ABOUT BUTTON */
 .about-btn {
   display: inline-block;
   margin-top: 1rem;
@@ -220,13 +267,13 @@ img {
   font-size: 14px;
   font-family: 'poppins', san-serif;
   font-weight: 500;
-  color: #f7f7f4; /* ✅ 텍스트 색상 */
+  color: #f7f7f4; 
   display: inline-block;
 }
 
 .about-btn:hover {
-  background-color: #ff0000; /* 포인트 컬러로 hover 효과 */
-  transform: translateY(-2px); /* 살짝 올라가는 효과 */
+  background-color: #ff0000; 
+  transform: translateY(-2px);
 }
 .about-icons {
   display: flex;
@@ -242,17 +289,16 @@ img {
 }
 
 .about-icons a:hover {
-  color: #ff0000; /* LinkedIn blue or 너의 테마 컬러 */
+  color: #ff0000; 
 }
 
-/* ✅ 기본: 전부 숨김 처리 */
+/* ABOUT VISIBILITY BY DEVICE */
 .about-desktop,
 .about-mobile,
 .about-mobile-break {
   display: none;
 }
 
-/* ✅ 모바일 (최대 768px)에서만 보여야 하는 항목들 */
 @media (max-width: 768px) {
   .about-mobile,
   .about-mobile-break {
@@ -263,18 +309,16 @@ img {
     display: none;
   }
 
-  /* scroll-indicator도 모바일에서만 보이게 */
   .scroll-indicator {
     display: block;
     font-size: 22px;
     color: #999;
-    padding-top: 4rem; /* ✅ margin보다 확실히 잘 먹힘 */
+    padding-top: 3rem; 
     text-align: center;
     animation: flickerWhite 1.5s infinite ease-in-out;
   }
 }
 
-/* ✅ 데스크탑 (769px 이상)에서만 보여야 하는 항목들 */
 @media (min-width: 769px) {
   .about-desktop {
     display: block;
@@ -285,13 +329,11 @@ img {
     display: none;
   }
 
-  /* scroll-indicator는 데스크탑에서 감춤 */
   .scroll-indicator {
     display: none;
   }
 }
 
-/* ✅ 깜빡이는 애니메이션 */
 @keyframes flickerWhite {
   0%, 53.3%, 100% {
     color: #999;
@@ -301,7 +343,7 @@ img {
   }
 }
 
-
+/* IMAGE SIZE UTILITY */
 .folio-images {
 display: block;
 text-align: left;
@@ -319,8 +361,7 @@ max-height: 600px;
 max-height: 800px;
 }
 
-
-/* portfolio 섹션 스타일 */
+/* PORTFOLIO SECTION */
 .portfolio {
   margin-top: 50px;
   padding: 20px;
@@ -335,8 +376,8 @@ max-height: 800px;
   color: #333;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-top: 5rem; /* 헤더 상단과의 여백 */
-  margin-bottom: 0rem; /* 타이틀과의 간격 확보 */
+  margin-top: 5rem; 
+  margin-bottom: 0rem; 
   text-align: left;
   line-height: 1.1;
 }
@@ -347,14 +388,14 @@ max-height: 800px;
   font-weight: 800;
   color: #fd3e3e;
   text-align: left;
-  margin-top: 0; /* context가 여백을 가지고 있으므로 0으로 줄임 */
+  margin-top: 0; 
   margin-bottom: 2rem;
   line-height: 1.1;
 }
 
 @media (max-width: 768px) {
   .project-title {
-      font-size: 2rem; /* 모바일 화면에서 글씨 크기 축소 */
+      font-size: 2rem; 
   }
 }
 
@@ -371,8 +412,7 @@ max-height: 800px;
   margin-bottom: 10px;
 }
 
-
-/* 구분선 */
+/* SEPARATOR LINE */
 .portfolio hr {
   border: none;
   height: 1px;
@@ -380,37 +420,32 @@ max-height: 800px;
   margin: 10px 0 20px;
 }
 
-/* 개별 경험 항목 */
+/* PORTFOLIO ITEM */
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* 경험 제목 */
 .portfolio-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-/* 경험 제목 내 링크 스타일 */
 .portfolio-item h3 a {
   text-decoration: none;
-  color: black; /* ✅ 글씨는 검정색 유지 */
+  color: black; 
   font-weight: bold;
   display: inline-flex;
   align-items: center;
 }
 
-/* 화살표 아이콘 스타일 */
 .portfolio-item h3 a i {
-  font-size: 14px; /* ✅ 아이콘 크기 */
-  margin-left: 5px; /* ✅ 텍스트와 아이콘 사이 간격 */
-  color: red; /* ✅ 아이콘만 빨간색 */
-  vertical-align: middle; /* ✅ 글자와 정렬 맞춤 */
+  font-size: 14px; 
+  margin-left: 5px; 
+  color: red; 
+  vertical-align: middle; 
 }
 
-
-/* 설명 문구 */
 .portfolio-item p {
   font-size: 16px;
   color: #333;
@@ -418,8 +453,7 @@ max-height: 800px;
   margin-bottom: 10px;
 }
 
-
-/* 태그 스타일 */
+/* TAG STYLES */
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -427,7 +461,7 @@ max-height: 800px;
 }
 
 .tags span {
-  background-color: white;
+  background-color:#f7f7f7;
   border: 2px solid black;
   padding: 5px 10px;
   border-radius: 20px;
@@ -435,7 +469,8 @@ max-height: 800px;
   font-weight: 500;
   display: inline-block;
 }
-/* 추가 경험 섹션 스타일 */
+
+/* ADDITIONAL EXPERIENCE SECTION */
 .additional-portfolio {
   margin-top: 20px;
   padding: 20px;
@@ -444,7 +479,6 @@ max-height: 800px;
   text-align: left;
 }
 
-/* 경험 제목 */
 .additional-portfolio h3 {
   font-size: 20px;
   font-weight: bold;
@@ -461,7 +495,6 @@ max-height: 800px;
   font-size: 16px;
 }
 
-/* 설명 문구 */
 .additional-portfolio p {
   font-size: 16px;
   color: #333;
@@ -469,41 +502,22 @@ max-height: 800px;
   margin-bottom: 10px;
 }
 
-/* 이미지 반응형 스타일 */
+/* RESPONSIVE IMAGE STYLES */
 .ioffering-images img {
-  max-width: 100%;  /* 화면 크기에 맞게 조정 */
+  max-width: 100%; 
   height: auto;
   display: block;
-  margin: 0 auto;  /* 가운데 정렬 */
+  margin: 0 auto; 
 }
 
-/* 작은 화면 (모바일) 대응 */
 @media screen and (max-width: 768px) {
   .ioffering-images img {
-      width: 90%;  /* 모바일에서는 가로 크기 90%로 조정 */
-      max-width: 400px;  /* 너무 커지지 않도록 제한 */
+      width: 90%;  
+      max-width: 400px; 
   }
 }
-/* 태그 스타일 */
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
 
-.tags span {
-  background-color: #f7f7f7;
-  border: 2px solid black;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 14px;
-  font-weight: 500;
-  display: inline-block;
-}
-
-
-
-/* 푸터 스타일 */
+/* FOOTER */
 .footer-wrapper {
   background-color: #22333b;
   color: #edede9;
@@ -511,7 +525,6 @@ max-height: 800px;
   width: 100%;
   position: relative;
 }
-
 
 .footer {
   display: flex;
@@ -541,22 +554,10 @@ max-height: 800px;
   opacity: 0.4;
 }
 
-
-
-/* 링크들을 포함하는 컨테이너 */
 .footer-links {
   display: flex;
-  flex-direction: column; /* ✅ 한 줄씩 정렬 */
-  align-items: flex-end; /* ✅ 링크들도 오른쪽 정렬 */
-}
-
-/* 푸터 내 링크 스타일 */
-.footer-links a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  display: block; /* ✅ 한 줄씩 나열 */
-  margin-bottom: 5px; /* ✅ 링크 간격 조정 */
+  flex-direction: column; 
+  align-items: flex-end; 
 }
 
 .footer-links a {
@@ -565,20 +566,69 @@ text-decoration: none;
 font-weight: 600;
 display: block;
 margin-bottom: 5px;
-transition: color 0.3s ease, text-decoration 0.3s ease; /* 부드럽게 전환 */
+transition: color 0.3s ease, text-decoration 0.3s ease; 
 }
 
 .footer-links a:hover {
-color: #ff6666; /* 포인트 컬러 */
+color: #ff6666; 
 }
 
-
-/* 저작권 문구 스타일 */
 .copyright {
-
   font-size: 14px;
   color: #666;
   text-align: right;
   margin-top: 10px;
+}
+
+/*about page*/
+.about-card {
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-card:hover {
+  border-right: 10px solid #ff6666;
+  border-bottom: 10px solid #ff6666;
+  background-color: #fdfafa;
+}
+.about-card p + p {
+  margin-top: 12px;
+}
+
+.about-inner {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+@media screen and (max-width: 768px) {
+  .about-inner {
+    flex-direction: column;
+  }
 }
 

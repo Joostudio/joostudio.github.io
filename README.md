@@ -53,3 +53,18 @@ I didn't expect this level of curiosity — but thank you for visiting!
 Built without frameworks, fueled by Google searches, and now... apparently, watched by many.
 
 🎯 **The Miracle of Ignorance™**
+
+
+---
+
+🧩 **Update – April 13, 2025**  
+This site is currently being developed into two templates:  
+**Resonant Lite** – minimal, fast, and clean  
+**Resonant Pro** – expressive, modular, and fully extensible
+
+Both will be available via Gumroad with complete guides and source files.  
+If you're here thinking of cloning... maybe hold off just a little? 😉  
+The official versions will be clearer, lighter, and much more fun to customize.
+
+Thank you for your quiet visits, unexpected curiosity, and occasional chaos. 👀  
+I'm watching too — with a smile.
