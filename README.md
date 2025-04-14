@@ -70,9 +70,8 @@ Built without frameworks, fueled by Google searches… and now apparently bookma
 
 🎯 **The Miracle of Ignorance™**
 
-
 ---
 
-⚠️ Built without frameworks or templates —  
-just sheer curiosity, lots of Googling, and a bit of chaos.  
-Maybe people are amazed by my recklessness and lack of technical awareness. Who knows? 😂
+📄 Licensing Note:  
+This project is not open source.  
+Cloning, redistributing, or modifying this code without permission is prohibited.
