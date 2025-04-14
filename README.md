@@ -60,8 +60,8 @@ The official versions will be clearer, lighter, and much more fun to customize.
 Thank you for your quiet visits, unexpected curiosity, and occasional chaos. 👀  
 I'm watching too — with a smile.
 
-**_Last public preview before official release._**
-
+⏳ This was the last public preview of the template (until April 13, 2025).  
+Template development continues privately and will launch soon on Gumroad.
 
 ---
 👀 From April 1 to April 13 (9:14pm PT), this site has reached **351 views** from GitHub alone.  
