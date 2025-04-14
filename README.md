@@ -75,3 +75,4 @@ Built without frameworks, fueled by Google searches… and now apparently bookma
 📄 Licensing Note:  
 This project is not open source.  
 Cloning, redistributing, or modifying this code without permission is prohibited.
+> 📁 Note: The `joostudio-templates/` folder has been intentionally removed and excluded from version control for privacy and licensing reasons.
