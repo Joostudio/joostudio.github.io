@@ -48,15 +48,6 @@ Turns out I accidentally built something people find refreshing…
 using just HTML, CSS, and a little bit of pure chaos.
 
 ---
-👀 Over 100 people have clicked through from GitHub to view this site.  
-I didn't expect this level of curiosity — but thank you for visiting!  
-Built without frameworks, fueled by Google searches, and now... apparently, watched by many.
-
-🎯 **The Miracle of Ignorance™**
-
-
----
-
 🧩 **Update – April 13, 2025**  
 This site is currently being developed into two templates:  
 **Resonant Lite** – minimal, fast, and clean  
@@ -68,3 +59,20 @@ The official versions will be clearer, lighter, and much more fun to customize.
 
 Thank you for your quiet visits, unexpected curiosity, and occasional chaos. 👀  
 I'm watching too — with a smile.
+
+**_Last public preview before official release._**
+
+
+---
+👀 From April 1 to April 13 (9:14pm PT), this site has reached **351 views** from GitHub alone.  
+I didn’t expect this much quiet curiosity — but thank you for watching, whoever you are.  
+Built without frameworks, fueled by Google searches… and now apparently bookmarked by more than a few.
+
+🎯 **The Miracle of Ignorance™**
+
+
+---
+
+⚠️ Built without frameworks or templates —  
+just sheer curiosity, lots of Googling, and a bit of chaos.  
+Maybe people are amazed by my recklessness and lack of technical awareness. Who knows? 😂
