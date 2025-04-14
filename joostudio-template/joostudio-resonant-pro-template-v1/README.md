@@ -7,14 +7,16 @@ Resonant Lite is a one-page HTML portfolio template crafted for creatives who ca
 
 ## 📂 What's Included
 
-- `index.html` – Main landing page
-- `style.css` – Core layout and styles
-- `motion.css` – Subtle wave animation for header
-- `script.js` – Hamburger menu + scroll indicator behavior
-- `assets/img/` – Favicon, logo, and image files
-- `LICENSE.txt` – License information
-- `README.md` – You're here
-- *(Optional)* `getting-started.pdf` or external guide link
+- `index.html` – Main landing page  
+- `style.css` – Core layout and styles  
+- `motion.css` – Subtle wave animation for header  
+- `script.js` – Hamburger menu + scroll indicator behavior  
+- `assets/img/` – Favicon, logo, and sample image files  
+- `LICENSE.txt` – License information  
+- `README.md` – You’re here  
+- `user-guide.html` – Customization guide in web format
+
+🔗 [Live User Guide →](https://joostudio.github.io/joostudio-template/user-guide.html)
 
 ---
 
@@ -28,4 +30,4 @@ To use this template:
 
 ```bash
 # Example
-git clone https://github.com/joostudio/resonant-lite-template-v1.git
+git clone https://github.com/joostudio/joostudio-template/joostudio-resonant-lite-template-v1.git
