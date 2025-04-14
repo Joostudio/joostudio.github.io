@@ -1,0 +1,24 @@
+MIT License (Modified)
+
+Copyright (c) 2025 Yunsun Joo (Joo Studio)
+
+Permission is hereby granted to any person purchasing a copy
+of this software and associated documentation files (the "Template"),
+to use, modify, and customize the Template for personal and commercial projects,
+subject to the following conditions:
+
+1. You may not resell, repackage, or redistribute this template
+   as-is or with minor modifications, whether for free or for compensation.
+
+2. You may not claim this template or any derivative work
+   as your own original design for resale purposes.
+
+3. Attribution is not required but appreciated.
+
+THE TEMPLATE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE TEMPLATE OR THE USE OR OTHER
+DEALINGS IN THE TEMPLATE.
