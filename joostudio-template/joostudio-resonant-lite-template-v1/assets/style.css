@@ -1,20 +1,58 @@
-/* 전체 스타일 초기화 */
+/*
+====================================================
+🧼 Resonant Lite Template – Master CSS (cleaned + organized)
+====================================================
+*/
+
+/* ========== 1. Global Reset & Base ========== */
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
   display: flex;
-  overflow-x: hidden; /* ✅ 가로 스크롤 방지 */
+  overflow-x: hidden; 
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: #edede9; /* Light mode */
+  background-color: #edede9; 
 }
 
 body.light-theme {
-  background-color: #edede9; /* Medium 스타일의 아이보리 톤 */
-  color: #333;
+  background-color: #edede9; 
+  color: #333; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* ========== 2. Layout Section ========== */
+.content {
+  background-color: #f7f7f4;
+  padding: 60px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section, .section-inner {
+  width: 100%;
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
 .section {
@@ -31,18 +69,66 @@ body.light-theme {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
-/* Navbar 스타일 */
+/* ========== 3. Navbar ========== */
 .navbar {
   font-family: 'Poppins', sans-serif;
   width: 100%;
-  background-color: #fff9f2; /* 흰색 배경 */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* drop shadow 추가 */
+  background-color: #fff9f2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 15px 0;
   position: fixed;
   top: 0;
   left: 0;
   text-align: center;
+  z-index: 100;
 }
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-left a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #2d2d2d;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2d2d2d;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff0000;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #2d2d2d;
+}
+
+
+
+
+
+
 
 .nav-container {
   display: flex;

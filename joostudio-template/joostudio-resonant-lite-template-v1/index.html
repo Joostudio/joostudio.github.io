@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tilte_Your Portfolio</title>
-    <meta charset="utf-8" />
-    
-  <!-- Favicon -->
-  <!-- Primary favicon (default for most browsers) -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"> <!-- Main favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_180.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon_512.png">
+  <title>Your Portfolio</title>   <!-- Edit this to set your browser tab title -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/motion.css">
+  <!-- 🧩 Favicon -->
+  <!-- Main icon for most browsers -->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_180.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon_512.png">
 
-<!-- Google tag (gtag.js) -->
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/motion.css">
+
+  <!-- Optional: Add your Google Analytics tag below -->
 </head>
+
 <body class="light-theme">
 
+  <!-- 🌐 Navigation -->
   <header class="navbar">
     <div class="nav-container">
       <div class="nav-left">
-        <a href="index.html">Your Name</a>
+        <a href="index.html">Your Name</a> <!-- Replace with your actual name -->
       </div>
       <button class="hamburger" id="hamburger">
         <i class="fas fa-bars"></i>
@@ -41,95 +44,98 @@
       </div>
     </div>
   </header>
-  
-  
 
-    <main class="content">
-        <div class="logo">
-            <img src="assets/img/yourlog_512.png" alt="Your logo"> <!-- 512X512 size image -->
+  <!-- ✨ Main Section -->
+  <main class="content">
+    <div class="logo">
+      <img src="assets/img/yourlog_512.png" alt="Your logo"> <!-- Replace with your 512x512 logo -->
+    </div>
+
+    <div class="social-icons">
+      <!-- Update these with your actual links -->
+      <a href="https://www.linkedin.com/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.behance.net/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance"></i></a>
+      <a href="https://github.com/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+      <a href="https://www.etsy.com/shop/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-etsy"></i></a>
+    </div>
+
+    <!-- Animated headline -->
+    <div class="waveTextAnimated">
+      <span>P</span><span>r</span><span>o</span><span>d</span><span>u</span><span>c</span><span>t</span> 
+      <span class="space">&nbsp;</span>
+      <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>e</span><span>r</span> 
+      <span class="space">&nbsp;</span>
+      <span>&</span>
+      <span class="space">&nbsp;</span>
+      <span>I</span><span>l</span><span>l</span><span>u</span><span>s</span><span>t</span><span>r</span><span>a</span><span>t</span><span>o</span><span>r</span>
+    </div>
+
+    <!-- 👤 Bio Section -->
+    <div class="bio">
+      <p class="intro">
+        Hello and welcome! This minimalist portfolio template is designed for product designers, illustrators, and creative professionals.
+      </p>
+      <div class="more-content hidden">
+        <p>This template is clean, responsive, and easy to customize. Replace the text, swap the images, and personalize it to reflect your work and story.</p>
+        <p>Whether you're showcasing a case study, building your personal brand, or sharing your creative journey — start strong with elegance and structure.</p>
+        <p>Built with flexibility in mind. Make it yours.</p>
+      </div>
+
+      <button id="toggleButton" class="read-more-btn"><em>Read more</em></button>
+      <p class="about-desktop"><a href="about.html" class="about-btn"><span>About Me</span></a></p>
+      <br class="about-mobile-break">
+      <br><a href="about.html" class="about-btn about-mobile"><span>About Me</span></a>
+      <div class="scroll-indicator" id="scroll-indicator"><i class="fas fa-angles-down"></i></div>
+    </div>
+  </main>
+
+  <!-- 🖼️ Sample Projects -->
+  <section class="portfolio">
+    <h2>Sample Projects>></h2>
+    <hr>
+    <div class="home-grid">
+      <div id="scroll-target"></div>
+
+      <!-- Sample Project 1 -->
+      <div class="portfolio-item">
+        <a href="#"><img src="assets/img/sample_project1.jpg" class="img-preview" alt="Sample project 1"></a>
+        <h3><a href="#">Creative Showcase Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+        <p>Display your visual work, personal brand, or creative direction in a polished layout.</p>
+        <div class="tags">
+          <span>Visual Design</span>
+          <span>Responsive Layout</span>
+          <span>HTML/CSS</span>
         </div>
+      </div>
 
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.behance.net/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance"></i></a>
-            <a href="https://github.com/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-            <a href="https://www.etsy.com/shop/#" target="_blank" rel="noopener noreferrer"><i class="fab fa-etsy"></i></a>
+      <!-- Sample Project 2 -->
+      <div class="portfolio-item">
+        <a href="#"><img src="assets/img/sample_project2.jpg" class="img-preview" alt="Sample project 2"></a>
+        <h3><a href="#">Case Study Template <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+        <p>Perfect for UX designers to present their research, thinking process, and product insights.</p>
+        <div class="tags">
+          <span>UX Case Study</span>
+          <span>Prototyping</span>
+          <span>Storytelling</span>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="waveTextAnimated"> <!-- your title -->
-            <span>P</span><span>r</span><span>o</span><span>d</span><span>u</span><span>c</span><span>t</span> 
-            <span class="space">&nbsp;</span>
-            <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>e</span><span>r</span> 
-            <span class="space">&nbsp;</span>
-            <span>&</span>
-            <span class="space">&nbsp;</span>
-            <span>I</span><span>l</span><span>l</span><span>u</span><span>s</span><span>t</span><span>r</span><span>a</span><span>t</span><span>o</span><span>r</span>
-        </div>
-        
-
-        <div class="bio">
-            <p class="intro">
-              Hello, and welcome! This is a minimalist portfolio template designed for product designers, illustrators, and creative professionals.              
-            </p>
-            
-            <div class="more-content hidden">
-              <p>This template is built to be clean, responsive, and easy to customize. Add your own content, swap images, and update links to showcase your unique story.</p>
-              <p>Whether you're building a case study, personal brand, or digital resume — this page helps you start strong with elegance and clarity.</p>
-              <p>Designed with structure and flexibility in mind. Replace everything and make it yours.</p>
-            </div>
-
-            <button id="toggleButton" class="read-more-btn"><em>Read more</em></button>
-            <p class="about-desktop">
-              <a href="about.html" class="about-btn"><span>About Me</span></a></p>
-              <br class="about-mobile-break">
-              <br><a href="about.html" class="about-btn about-mobile"><span>About Me</span></a>
-              <div class="scroll-indicator" id="scroll-indicator"><i class="fas fa-angles-down"></i></div>
-            </div>
-    </main>
-
- <section class="portfolio">
-        <h2>Portfolio>>></h2>
-        <hr>
-      <div class="home-grid">
-        <div id="scroll-target"></div>
-          <div class="portfolio-item">
-            <a href="iorderfoods.html"><img src="portfolio/img/iorderfoods1.jpg" class="img-preview" alt="img_iorderfoods preview"></a>
-            <h3><a href="iorderfoods.html">iOrderfoods <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3
-            <p><strong>Online food ordering platform</strong> designed to help restaurants efficiently manage pickup orders.</p>
-            <div class="tags">
-                <span>User Research</span>
-                <span>Competitor Analysis</span>
-                <span>Visual Design</span>
-                <span>Prototyping & Testing</span>
-            </div>
-          </div>
-    
-
-         <div class="portfolio-item">
-              <a href="ioffering.html"><img src="portfolio/img/ioffering_ipayacademy1.jpg" class="img-preview" alt="img_ioffering_ipayacademy preview"></a>
-            <h3><a href="ioffering.html">iOffering<br>iPayAcademy <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
-            <p><strong>Digital platform for church donations,</strong> allowing members to contribute online instead of traditional cash or check donations.</p>
-            <div class="tags">
-                <span>Visual Design</span>
-                <span>Prototyping & Testing</span>
-            </div>
-         </div>
-   </div>
-</section>
-  <!-- Footer -->
+  <!-- 📎 Footer -->
   <div class="footer-wrapper">
     <div class="footer-divider"></div>
     <footer class="footer">
       <p>
-        Crafted by <strong>joostudio</strong> 
-        <br>Customize freely and make it yours<br>
+        Crafted by <strong>joostudio</strong><br>
+        Customize freely and make it yours.<br>
         Template © 2025 Joo Studio
       </p>
     </footer>
   </div>
 
   <!-- Script -->
-<script src="./assets/script.js"></script>
+  <script src="./assets/script.js"></script>
 </body>
 </html>
