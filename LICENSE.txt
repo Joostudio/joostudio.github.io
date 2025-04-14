@@ -1,0 +1,15 @@
+Copyright © 2025 Yunsun Joo (joostudio)
+
+All rights reserved.
+
+The contents of this repository (including HTML, CSS, JavaScript, images, and layout)  
+are part of a commercial product in progress, titled "Resonant Lite / Pro".
+
+This codebase is not open source.  
+You may not copy, distribute, reproduce, or reuse any part of this project  
+without explicit written permission from the author.
+
+Please do not clone or redistribute.  
+This site will be released as a licensed template via Gumroad.
+
+Contact: yunsunjoo9@gmail.com
