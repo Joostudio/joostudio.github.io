@@ -633,35 +633,3 @@ color: #ff6666; /* 포인트 컬러 */
 }
 
 
-
-.template-banner {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
-  z-index: 9999;
-  background-color: #fff;
-  color: #333;
-  border: 1px solid #ccc;
-  padding: 1rem 1.5rem;
-  font-size: 0.9rem;
-  font-family: 'Poppins', sans-serif;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  animation: fadeIn 1s ease-in-out;
-}
-
-.template-banner .dismiss {
-  cursor: pointer;
-  font-weight: bold;
-  margin-left: 1rem;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-

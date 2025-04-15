@@ -1,3 +1,8 @@
+> 📦 **Now available on Gumroad**  
+> https://yunsun.gumroad.com/l/muwqbv  
+>  
+> 🔒 Commercial use requires a valid license. Please do not clone, reuse, or redistribute without permission.
+
 # Yunsun Joo – Portfolio
 
 Hi! I'm a Product Designer & Illustrator passionate about clarity, emotion, and creating user experiences that *feel* good as much as they *work* well.
@@ -19,8 +24,8 @@ This is the codebase for my portfolio site – [joostudio.github.io](https://joo
 - Integrated with Google Analytics
 
 💬 **And lately...**  
-This repo has been getting unexpected traffic and clones.  
-I’m not exactly sure why, but thank you for visiting. Whether you're here out of curiosity or inspiration, I appreciate the attention.
+This repo has unexpectedly drawn quite a bit of attention — with hundreds of clones and visits.  
+Whether you're here to explore, learn, or be inspired: thank you. I genuinely appreciate your interest.
 
 🤝 **Let’s connect**  
 [LinkedIn](https://www.linkedin.com/in/yunsunjoo) | [Instagram](https://www.instagram.com/joostudio.g)
@@ -43,9 +48,9 @@ Maybe people are amazed by my recklessness and lack of technical awareness. Who 
 
 ⚠️ Editing the site manually was... intense.
 
-🤷‍♀️ I honestly thought this is how websites are made.  
-Turns out I accidentally built something people find refreshing…  
-using just HTML, CSS, and a little bit of pure chaos.
+🤷‍♀️ I genuinely thought this was just how websites were made.  
+Turns out, this accidental method — pure HTML, CSS, and a little chaos — felt refreshingly different to many.  
+I'm as surprised as you are.
 
 ---
 🧩 **Update – April 13, 2025**  
@@ -61,10 +66,10 @@ Thank you for your quiet visits, unexpected curiosity, and occasional chaos. �
 I'm watching too — with a smile.
 
 ⏳ This was the last public preview of the template (until April 13, 2025).  
-Template development continues privately and will launch soon on Gumroad.
+Template development continues privately and is now officially launched on Gumroad.
 
 ---
-👀 From April 1 to April 13 (9:14pm PT), this site has reached **351 views** from GitHub alone.  
+👀 From April 1 to April 14, this site has reached **284 clones** and **1.4k GitHub events**.  
 I didn’t expect this much quiet curiosity — but thank you for watching, whoever you are.  
 Built without frameworks, fueled by Google searches… and now apparently bookmarked by more than a few.
 
@@ -73,6 +78,19 @@ Built without frameworks, fueled by Google searches… and now apparently bookma
 ---
 
 📄 Licensing Note:  
-This project is not open source.  
-Cloning, redistributing, or modifying this code without permission is prohibited.
-> 📁 Note: The `joostudio-templates/` folder has been intentionally removed and excluded from version control for privacy and licensing reasons.
+
+MIT — Free for personal learning, inspiration, and customization.
+
+> 🚫 **Commercial use, resale, or redistribution** of this template without a license is strictly prohibited.  
+> ✅ To use this template commercially, please purchase a valid license via [Gumroad](https://yunsun.gumroad.com/l/muwqbv).
+
+---
+
+## 📊 Popular on GitHub  
+
+Between March 25 and April 14, 2025, this template received:
+
+- 🔁 284 Clones  
+- 👁️ 410 Views  
+
+The template is gaining traction. Get your licensed copy and build your own version now.
