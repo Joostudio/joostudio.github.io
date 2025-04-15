@@ -8,7 +8,7 @@
 Hi! I'm a Product Designer & Illustrator passionate about clarity, emotion, and creating user experiences that *feel* good as much as they *work* well.
 
 🎯 **What’s in here?**  
-This is the codebase for my portfolio site – [joostudio.github.io](https://joostudio.github.io) – designed and developed from scratch to reflect my design values: clear communication, focused layout, and a touch of personality.
+This is the codebase for my portfolio site – https://yunsunjoo.com/ – designed and developed from scratch to reflect my design values: clear communication, focused layout, and a touch of personality.
 
 🛠️ **Built with**  
 - HTML5 / CSS3  
@@ -37,8 +37,7 @@ Whether you're here to explore, learn, or be inspired: thank you. I genuinely ap
 *This portfolio was built from scratch as a bold experiment (thanks to GitHub being free).*  
 *I truly appreciate all the unexpected attention.*
 
-*I'll continue to update this site as needed — especially for the StyleWise: Pick project, which is evolving toward a functional prototype.  
-Thanks again for your interest!*
+*I'll continue to update this site as needed*
 
 ---
 
@@ -53,20 +52,18 @@ Turns out, this accidental method — pure HTML, CSS, and a little chaos — fel
 I'm as surprised as you are.
 
 ---
-🧩 **Update – April 13, 2025**  
-This site is currently being developed into two templates:  
-**Resonant Lite** – minimal, fast, and clean  
-**Resonant Pro** – expressive, modular, and fully extensible
+🧩 **Update – April 15, 2025**  
+**Joo Studio Resonate Lite** has officially launched on Gumroad:  
+🔗 https://yunsun.gumroad.com/l/muwqbv
 
-Both will be available via Gumroad with complete guides and source files.  
-If you're here thinking of cloning... maybe hold off just a little? 😉  
-The official versions will be clearer, lighter, and much more fun to customize.
+More extended template products are in the works —  
+each will come with complete source files and user-friendly setup guides.
+
+> The official versions will be clearer, lighter, and much more fun to customize.
 
 Thank you for your quiet visits, unexpected curiosity, and occasional chaos. 👀  
 I'm watching too — with a smile.
 
-⏳ This was the last public preview of the template (until April 13, 2025).  
-Template development continues privately and is now officially launched on Gumroad.
 
 ---
 👀 From April 1 to April 14, this site has reached **284 clones** and **1.4k GitHub events**.  
